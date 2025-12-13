@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Intervariable;
+  src: url('../fonts/InterVariable.woff2') format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black: #000;
+  --radius--regular: 1rem;
+  --radius--small: .5rem;
+  --white: #fff;
+  --gray: #727171;
+  --light-gray: #fafafa;
+  --green: #069601;
+}
+
+body {
+  color: var(--black);
+  font-family: Intervariable, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h1 {
+  font-variation-settings: "wght" 470;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+.wrapper {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.window {
+  border-top-left-radius: var(--radius--regular);
+  border-top-right-radius: var(--radius--regular);
+  border-bottom-left-radius: var(--radius--regular);
+  border-bottom-right-radius: var(--radius--regular);
+  text-align: center;
+  max-width: 27rem;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 2px 48px 1px #48484a1a;
+}
+
+.h1 {
+  color: var(--black);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.3rem;
+  line-height: 2rem;
+}
+
+.spacer {
+  height: 1rem;
+}
+
+.spacer:where(.w-variant-0acb2c97-f162-7e56-af40-0cb5dd3f7c36) {
+  height: 1.5rem;
+}
+
+.spacer:where(.w-variant-ee4669bb-cbc6-3fe6-4a8f-2d91f9ab2498) {
+  height: 2rem;
+}
+
+.spacer:where(.w-variant-bd014155-5d2e-8eb0-9fc8-5ec0e397b5f9) {
+  height: 2.5rem;
+}
+
+.spacer:where(.w-variant-92c511fc-024c-bbdc-bf98-3ad8986e2214) {
+  height: 4rem;
+}
+
+.code-input {
+  border: 1px solid var(--black);
+  border-radius: var(--radius--small);
+  background-color: var(--black);
+  outline-offset: 0px;
+  color: var(--white);
+  font-variation-settings: "wght" 470;
+  text-align: center;
+  letter-spacing: .02em;
+  cursor: pointer;
+  outline: 3px #fff;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: all .2s;
+  display: flex;
+}
+
+.code-input:hover {
+  opacity: .8;
+}
+
+.code-input:active {
+  opacity: 100;
+}
+
+.div-block {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.newo-logo {
+  width: 6.5rem;
+}
+
+.copy-status {
+  font-size: .825rem;
+  transition: opacity .2s;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media screen and (max-width: 479px) {
+  .window {
+    max-width: 20rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+}
+
+
+@font-face {
+  font-family: 'Intervariable';
+  src: url('../fonts/InterVariable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
